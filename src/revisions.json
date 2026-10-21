@@ -28,5 +28,14 @@
       "Ragged Short Spear",
       "Wood Elves"
     ]
+  },
+  {
+    "name": "Revision 3",
+    "removed": [
+      "Craftwork Crusher"
+    ],
+    "added": [
+      "Loki's Scepter"
+    ]
   }
 ]

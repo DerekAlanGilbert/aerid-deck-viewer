@@ -284,5 +284,46 @@
     "cn": "142"
    }
   ]
+ },
+ {
+  "name": "Revision 3",
+  "removed": [
+   {
+    "qty": 1,
+    "name": "Craftwork Crusher",
+    "commander": false,
+    "type_line": "Artifact Creature \u2014 Boar Construct",
+    "mana_cost": "{3}{R}{R}{G}{G}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg?1789470711",
+      "large": "https://cards.scryfall.io/large/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg?1789470711",
+      "png": "https://cards.scryfall.io/png/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.png?1789470711"
+     }
+    ],
+    "uri": "https://scryfall.com/card/fra/127/craftwork-crusher?utm_source=api",
+    "set": "fra",
+    "cn": "127"
+   }
+  ],
+  "added": [
+   {
+    "qty": 1,
+    "name": "Loki's Scepter",
+    "commander": false,
+    "type_line": "Legendary Artifact",
+    "mana_cost": "{2}{R}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/5/7/57e90938-9225-4c15-b4fb-aad2cced2e6a.jpg?1783903282",
+      "large": "https://cards.scryfall.io/large/front/5/7/57e90938-9225-4c15-b4fb-aad2cced2e6a.jpg?1783903282",
+      "png": "https://cards.scryfall.io/png/front/5/7/57e90938-9225-4c15-b4fb-aad2cced2e6a.png?1783903282"
+     }
+    ],
+    "uri": "https://scryfall.com/card/msc/56/lokis-scepter?utm_source=api",
+    "set": "msc",
+    "cn": "56"
+   }
+  ]
  }
 ]
