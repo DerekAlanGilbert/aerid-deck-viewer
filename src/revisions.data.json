@@ -325,5 +325,46 @@
     "cn": "56"
    }
   ]
+ },
+ {
+  "name": "Revision 4",
+  "removed": [
+   {
+    "qty": 1,
+    "name": "Troop of Ponies",
+    "commander": false,
+    "type_line": "Creature \u2014 Horse",
+    "mana_cost": "{2}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/6/c/6cbcd606-b864-4b81-9596-e7788befdd1f.jpg?1785497189",
+      "large": "https://cards.scryfall.io/large/front/6/c/6cbcd606-b864-4b81-9596-e7788befdd1f.jpg?1785497189",
+      "png": "https://cards.scryfall.io/png/front/6/c/6cbcd606-b864-4b81-9596-e7788befdd1f.png?1785497189"
+     }
+    ],
+    "uri": "https://scryfall.com/card/hob/199/troop-of-ponies?utm_source=api",
+    "set": "hob",
+    "cn": "199"
+   }
+  ],
+  "added": [
+   {
+    "qty": 1,
+    "name": "Pinecone Strike",
+    "commander": false,
+    "type_line": "Instant",
+    "mana_cost": "{1}{R}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/e/a/ea174cea-40e5-424e-9734-e39aae6c6b17.jpg?1785496194",
+      "large": "https://cards.scryfall.io/large/front/e/a/ea174cea-40e5-424e-9734-e39aae6c6b17.jpg?1785496194",
+      "png": "https://cards.scryfall.io/png/front/e/a/ea174cea-40e5-424e-9734-e39aae6c6b17.png?1785496194"
+     }
+    ],
+    "uri": "https://scryfall.com/card/hob/107/pinecone-strike?utm_source=api",
+    "set": "hob",
+    "cn": "107"
+   }
+  ]
  }
 ]

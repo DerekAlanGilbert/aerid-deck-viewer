@@ -37,5 +37,22 @@
     "added": [
       "Loki's Scepter"
     ]
+  },
+  {
+    "name": "Revision 4",
+    "removed": [
+      {
+        "name": "Troop of Ponies",
+        "set": "HOB",
+        "cn": "199"
+      }
+    ],
+    "added": [
+      {
+        "name": "Pinecone Strike",
+        "set": "HOB",
+        "cn": "107"
+      }
+    ]
   }
 ]
