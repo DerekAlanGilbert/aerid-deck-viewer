@@ -1,0 +1,77 @@
+[
+ {
+  "name": "Revision 1",
+  "removed": [
+   {
+    "qty": 1,
+    "name": "Stone-Giant of High Pass",
+    "commander": false,
+    "type_line": "Creature \u2014 Giant",
+    "mana_cost": "{5}{R}{R}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/1/a/1adfc347-5c69-45e1-829b-aaae19e04b96.jpg?1787203559",
+      "large": "https://cards.scryfall.io/large/front/1/a/1adfc347-5c69-45e1-829b-aaae19e04b96.jpg?1787203559",
+      "png": "https://cards.scryfall.io/png/front/1/a/1adfc347-5c69-45e1-829b-aaae19e04b96.png?1787203559"
+     }
+    ],
+    "uri": "https://scryfall.com/card/hob/304/stone-giant-of-high-pass?utm_source=api",
+    "set": "hob",
+    "cn": "304"
+   },
+   {
+    "qty": 1,
+    "name": "Riftburst Hellion",
+    "commander": false,
+    "type_line": "Creature \u2014 Hellion",
+    "mana_cost": "{5}{R}{G}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/9/f/9fae9044-a859-434d-8dc6-4f9d455ca5e1.jpg?1783912840",
+      "large": "https://cards.scryfall.io/large/front/9/f/9fae9044-a859-434d-8dc6-4f9d455ca5e1.jpg?1783912840",
+      "png": "https://cards.scryfall.io/png/front/9/f/9fae9044-a859-434d-8dc6-4f9d455ca5e1.png?1783912840"
+     }
+    ],
+    "uri": "https://scryfall.com/card/mkm/228/riftburst-hellion?utm_source=api",
+    "set": "mkm",
+    "cn": "228"
+   }
+  ],
+  "added": [
+   {
+    "qty": 1,
+    "name": "Fellwar Stone",
+    "commander": false,
+    "type_line": "Artifact",
+    "mana_cost": "{2}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/3/e/3ef87948-0ad9-4757-a692-2262c8e24367.jpg?1785759354",
+      "large": "https://cards.scryfall.io/large/front/3/e/3ef87948-0ad9-4757-a692-2262c8e24367.jpg?1785759354",
+      "png": "https://cards.scryfall.io/png/front/3/e/3ef87948-0ad9-4757-a692-2262c8e24367.png?1785759354"
+     }
+    ],
+    "uri": "https://scryfall.com/card/mbc/74/fellwar-stone?utm_source=api",
+    "set": "mbc",
+    "cn": "74"
+   },
+   {
+    "qty": 1,
+    "name": "Chromatic Lantern",
+    "commander": false,
+    "type_line": "Artifact",
+    "mana_cost": "{3}",
+    "faces": [
+     {
+      "normal": "https://cards.scryfall.io/normal/front/9/b/9b29492a-8bdd-4806-8d1b-3058ed277cc1.jpg?1787743253",
+      "large": "https://cards.scryfall.io/large/front/9/b/9b29492a-8bdd-4806-8d1b-3058ed277cc1.jpg?1787743253",
+      "png": "https://cards.scryfall.io/png/front/9/b/9b29492a-8bdd-4806-8d1b-3058ed277cc1.png?1787743253"
+     }
+    ],
+    "uri": "https://scryfall.com/card/mbc/73/chromatic-lantern?utm_source=api",
+    "set": "mbc",
+    "cn": "73"
+   }
+  ]
+ }
+]

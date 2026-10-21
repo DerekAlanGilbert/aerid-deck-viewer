@@ -1,32 +1,23 @@
-# React + TypeScript + Vite
+# Aerid Deck Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Mobile, image-first viewer for the Aerid Konstrari Commander deck. Vite + React + TS + Tailwind, Bun.
 
-Currently, two official plugins are available:
+Live: https://aerid-deck-viewer.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Develop
+```sh
+bun install && bun run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Revisions
+The top tab row shows **Version 1** (the base deck in `src/deck.json`, which never changes) followed by one tab per entry in `src/revisions.json`. Each revision tab shows a git-diff view: removed cards on the left (red), added cards on the right (green).
+
+To add the next revision:
+1. Append an entry to `src/revisions.json` using exact Scryfall card names:
+   ```json
+   { "name": "Revision 2", "removed": ["Card A"], "added": ["Card B"] }
+   ```
+2. Resolve card images: `python3 scripts/fetch_revisions.py` (writes `src/revisions.data.json`; exits non-zero and lists any name that failed to resolve).
+3. `bun run build`, commit, push, and deploy.
+
+Each revision lists the change from the previous one, not from Version 1.
