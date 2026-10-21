@@ -1,0 +1,1192 @@
+[
+ {
+  "qty": 1,
+  "name": "Aerid Konstrari",
+  "commander": true,
+  "type_line": "Legendary Creature \u2014 Elder Sphinx",
+  "mana_cost": "{1}{R}{G}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/d/0/d0b12e0f-de6e-4cc3-ad04-b2c4ee556fd3.jpg?1790137236",
+    "large": "https://cards.scryfall.io/large/front/d/0/d0b12e0f-de6e-4cc3-ad04-b2c4ee556fd3.jpg?1790137236",
+    "png": "https://cards.scryfall.io/png/front/d/0/d0b12e0f-de6e-4cc3-ad04-b2c4ee556fd3.png?1790137236"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/417/aerid-konstrari?utm_source=api",
+  "set": "fra",
+  "cn": "417"
+ },
+ {
+  "qty": 1,
+  "name": "Abrade",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{1}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/1/31af49a8-e655-4670-b035-58171a6a57b9.jpg?1783903509",
+    "large": "https://cards.scryfall.io/large/front/3/1/31af49a8-e655-4670-b035-58171a6a57b9.jpg?1783903509",
+    "png": "https://cards.scryfall.io/png/front/3/1/31af49a8-e655-4670-b035-58171a6a57b9.png?1783903509"
+   }
+  ],
+  "uri": "https://scryfall.com/card/sld/2390/abrade?utm_source=api",
+  "set": "sld",
+  "cn": "2390"
+ },
+ {
+  "qty": 1,
+  "name": "Arc Reactor",
+  "commander": false,
+  "type_line": "Artifact",
+  "mana_cost": "{5}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/b/3b7e9150-028d-482d-9bd8-d9d3e56d24be.jpg?1783902872",
+    "large": "https://cards.scryfall.io/large/front/3/b/3b7e9150-028d-482d-9bd8-d9d3e56d24be.jpg?1783902872",
+    "png": "https://cards.scryfall.io/png/front/3/b/3b7e9150-028d-482d-9bd8-d9d3e56d24be.png?1783902872"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msh/310/arc-reactor?utm_source=api",
+  "set": "msh",
+  "cn": "310"
+ },
+ {
+  "qty": 1,
+  "name": "Arcane Signet",
+  "commander": false,
+  "type_line": "Artifact",
+  "mana_cost": "{2}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/d/d/dd1d87e4-f51a-448f-824f-99dffd73403c.jpg?1786964348",
+    "large": "https://cards.scryfall.io/large/front/d/d/dd1d87e4-f51a-448f-824f-99dffd73403c.jpg?1786964348",
+    "png": "https://cards.scryfall.io/png/front/d/d/dd1d87e4-f51a-448f-824f-99dffd73403c.png?1786964348"
+   }
+  ],
+  "uri": "https://scryfall.com/card/sld/916/arcane-signet?utm_source=api",
+  "set": "sld",
+  "cn": "916"
+ },
+ {
+  "qty": 1,
+  "name": "Archdruid's Charm",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{G}{G}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/0/a/0a2eca5a-3d3e-4347-9637-85ce10340409.jpg?1783912679",
+    "large": "https://cards.scryfall.io/large/front/0/a/0a2eca5a-3d3e-4347-9637-85ce10340409.jpg?1783912679",
+    "png": "https://cards.scryfall.io/png/front/0/a/0a2eca5a-3d3e-4347-9637-85ce10340409.png?1783912679"
+   }
+  ],
+  "uri": "https://scryfall.com/card/pmkm/151s/archdruids-charm?utm_source=api",
+  "set": "pmkm",
+  "cn": "151s"
+ },
+ {
+  "qty": 1,
+  "name": "Archive Arbiter",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Sphinx",
+  "mana_cost": "{6}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg?1789614867",
+    "large": "https://cards.scryfall.io/large/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.jpg?1789614867",
+    "png": "https://cards.scryfall.io/png/front/0/2/024bce1e-a5f3-4292-bc17-d0355a5d65e1.png?1789614867"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/167/archive-arbiter?utm_source=api",
+  "set": "fra",
+  "cn": "167"
+ },
+ {
+  "qty": 1,
+  "name": "Beast Within",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{2}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/b/6/b6b6c66f-e3e0-4904-ae41-2ecc786f70c5.jpg?1783903312",
+    "large": "https://cards.scryfall.io/large/front/b/6/b6b6c66f-e3e0-4904-ae41-2ecc786f70c5.jpg?1783903312",
+    "png": "https://cards.scryfall.io/png/front/b/6/b6b6c66f-e3e0-4904-ae41-2ecc786f70c5.png?1783903312"
+   }
+  ],
+  "uri": "https://scryfall.com/card/mar/75/beast-within?utm_source=api",
+  "set": "mar",
+  "cn": "75"
+ },
+ {
+  "qty": 1,
+  "name": "Bitter Work",
+  "commander": false,
+  "type_line": "Enchantment",
+  "mana_cost": "{1}{R}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/e/3e8de6a9-9859-4ed2-8ece-ef80a7209be9.jpg?1783904931",
+    "large": "https://cards.scryfall.io/large/front/3/e/3e8de6a9-9859-4ed2-8ece-ef80a7209be9.jpg?1783904931",
+    "png": "https://cards.scryfall.io/png/front/3/e/3e8de6a9-9859-4ed2-8ece-ef80a7209be9.png?1783904931"
+   }
+  ],
+  "uri": "https://scryfall.com/card/tla/210/bitter-work?utm_source=api",
+  "set": "tla",
+  "cn": "210"
+ },
+ {
+  "qty": 1,
+  "name": "Blasphemous Act",
+  "commander": false,
+  "type_line": "Sorcery",
+  "mana_cost": "{8}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/9/a/9af44900-0afe-4409-8bad-0db4a915be92.jpg?1783904854",
+    "large": "https://cards.scryfall.io/large/front/9/a/9af44900-0afe-4409-8bad-0db4a915be92.jpg?1783904854",
+    "png": "https://cards.scryfall.io/png/front/9/a/9af44900-0afe-4409-8bad-0db4a915be92.png?1783904854"
+   }
+  ],
+  "uri": "https://scryfall.com/card/tle/26/blasphemous-act?utm_source=api",
+  "set": "tle",
+  "cn": "26"
+ },
+ {
+  "qty": 1,
+  "name": "Budding Insurgent",
+  "commander": false,
+  "type_line": "Creature \u2014 Dryad Scout",
+  "mana_cost": "{2}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg?1789127120",
+    "large": "https://cards.scryfall.io/large/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.jpg?1789127120",
+    "png": "https://cards.scryfall.io/png/front/1/8/18c59d60-2640-4576-9375-3ba38aa3ecb7.png?1789127120"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/99/budding-insurgent?utm_source=api",
+  "set": "fra",
+  "cn": "99"
+ },
+ {
+  "qty": 1,
+  "name": "Chaos Warp",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{2}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/2/a/2a6c3d3b-93ec-43df-a0cd-ea12ab047d51.jpg?1783903314",
+    "large": "https://cards.scryfall.io/large/front/2/a/2a6c3d3b-93ec-43df-a0cd-ea12ab047d51.jpg?1783903314",
+    "png": "https://cards.scryfall.io/png/front/2/a/2a6c3d3b-93ec-43df-a0cd-ea12ab047d51.png?1783903314"
+   }
+  ],
+  "uri": "https://scryfall.com/card/mar/69/chaos-warp?utm_source=api",
+  "set": "mar",
+  "cn": "69"
+ },
+ {
+  "qty": 1,
+  "name": "Collector's Vault",
+  "commander": false,
+  "type_line": "Artifact",
+  "mana_cost": "{2}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/9/6/967a4f27-8cd6-437d-8c05-8aedbc7ddc4b.jpg?1783915060",
+    "large": "https://cards.scryfall.io/large/front/9/6/967a4f27-8cd6-437d-8c05-8aedbc7ddc4b.jpg?1783915060",
+    "png": "https://cards.scryfall.io/png/front/9/6/967a4f27-8cd6-437d-8c05-8aedbc7ddc4b.png?1783915060"
+   }
+  ],
+  "uri": "https://scryfall.com/card/woe/244/collectors-vault?utm_source=api",
+  "set": "woe",
+  "cn": "244"
+ },
+ {
+  "qty": 1,
+  "name": "Craftwork Crusher",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Boar Construct",
+  "mana_cost": "{3}{R}{R}{G}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg?1789470711",
+    "large": "https://cards.scryfall.io/large/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.jpg?1789470711",
+    "png": "https://cards.scryfall.io/png/front/0/3/03f9839c-aa07-4ee7-847b-091e47ab80c4.png?1789470711"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/127/craftwork-crusher?utm_source=api",
+  "set": "fra",
+  "cn": "127"
+ },
+ {
+  "qty": 1,
+  "name": "Craterclaw Colossus",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Beast Construct",
+  "mana_cost": "{4}{R}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/6/0/60b9f969-694a-4445-9b0f-525c259edfc8.jpg?1790413077",
+    "large": "https://cards.scryfall.io/large/front/6/0/60b9f969-694a-4445-9b0f-525c259edfc8.jpg?1790413077",
+    "png": "https://cards.scryfall.io/png/front/6/0/60b9f969-694a-4445-9b0f-525c259edfc8.png?1790413077"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/446/craterclaw-colossus?utm_source=api",
+  "set": "fra",
+  "cn": "446"
+ },
+ {
+  "qty": 1,
+  "name": "Dependable Quinjet",
+  "commander": false,
+  "type_line": "Artifact \u2014 Vehicle",
+  "mana_cost": "{3}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/c/0/c035c625-4de5-4c3b-9d07-aa1df8fc7b78.jpg?1783902893",
+    "large": "https://cards.scryfall.io/large/front/c/0/c035c625-4de5-4c3b-9d07-aa1df8fc7b78.jpg?1783902893",
+    "png": "https://cards.scryfall.io/png/front/c/0/c035c625-4de5-4c3b-9d07-aa1df8fc7b78.png?1783902893"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msh/246/dependable-quinjet?utm_source=api",
+  "set": "msh",
+  "cn": "246"
+ },
+ {
+  "qty": 1,
+  "name": "Desert Were-Worm",
+  "commander": false,
+  "type_line": "Creature \u2014 Dragon Wurm",
+  "mana_cost": "{4}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/c/f/cfe91642-7651-4902-8386-b18cfb506925.jpg?1784733948",
+    "large": "https://cards.scryfall.io/large/front/c/f/cfe91642-7651-4902-8386-b18cfb506925.jpg?1784733948",
+    "png": "https://cards.scryfall.io/png/front/c/f/cfe91642-7651-4902-8386-b18cfb506925.png?1784733948"
+   }
+  ],
+  "uri": "https://scryfall.com/card/hob/261/desert-were-worm?utm_source=api",
+  "set": "hob",
+  "cn": "261"
+ },
+ {
+  "qty": 1,
+  "name": "Draconic Visitor",
+  "commander": false,
+  "type_line": "Creature \u2014 Dragon",
+  "mana_cost": "{3}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/d/0/d061676d-093a-47ac-9064-3edcacbc4485.jpg?1790136400",
+    "large": "https://cards.scryfall.io/large/front/d/0/d061676d-093a-47ac-9064-3edcacbc4485.jpg?1790136400",
+    "png": "https://cards.scryfall.io/png/front/d/0/d061676d-093a-47ac-9064-3edcacbc4485.png?1790136400"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/368/draconic-visitor?utm_source=api",
+  "set": "fra",
+  "cn": "368"
+ },
+ {
+  "qty": 1,
+  "name": "Fires of Yavimaya",
+  "commander": false,
+  "type_line": "Enchantment",
+  "mana_cost": "{1}{R}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/f/8/f8003d09-9c1a-4bd3-8672-f4d7960c972e.jpg?1783918639",
+    "large": "https://cards.scryfall.io/large/front/f/8/f8003d09-9c1a-4bd3-8672-f4d7960c972e.jpg?1783918639",
+    "png": "https://cards.scryfall.io/png/front/f/8/f8003d09-9c1a-4bd3-8672-f4d7960c972e.png?1783918639"
+   }
+  ],
+  "uri": "https://scryfall.com/card/scd/228/fires-of-yavimaya?utm_source=api",
+  "set": "scd",
+  "cn": "228"
+ },
+ {
+  "qty": 1,
+  "name": "Flora Colossus",
+  "commander": false,
+  "type_line": "Creature \u2014 Treefolk",
+  "mana_cost": "{5}{G}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/7/9/79543a40-2943-41c0-8def-773dbf4ce196.jpg?1783903095",
+    "large": "https://cards.scryfall.io/large/front/7/9/79543a40-2943-41c0-8def-773dbf4ce196.jpg?1783903095",
+    "png": "https://cards.scryfall.io/png/front/7/9/79543a40-2943-41c0-8def-773dbf4ce196.png?1783903095"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/561/flora-colossus?utm_source=api",
+  "set": "msc",
+  "cn": "561"
+ },
+ {
+  "qty": 1,
+  "name": "Garruk's Uprising",
+  "commander": false,
+  "type_line": "Enchantment",
+  "mana_cost": "{2}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/7/9/7931a072-b688-4a0b-a32e-9a2082738745.jpg?1783914918",
+    "large": "https://cards.scryfall.io/large/front/7/9/7931a072-b688-4a0b-a32e-9a2082738745.jpg?1783914918",
+    "png": "https://cards.scryfall.io/png/front/7/9/7931a072-b688-4a0b-a32e-9a2082738745.png?1783914918"
+   }
+  ],
+  "uri": "https://scryfall.com/card/wot/53/garruks-uprising?utm_source=api",
+  "set": "wot",
+  "cn": "53"
+ },
+ {
+  "qty": 1,
+  "name": "Gl\u00f3in, Dwarf Emissary",
+  "commander": false,
+  "type_line": "Legendary Creature \u2014 Dwarf Advisor",
+  "mana_cost": "{2}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/5/e/5e605142-6e9f-496c-94f3-1d6e7044748e.jpg?1783914099",
+    "large": "https://cards.scryfall.io/large/front/5/e/5e605142-6e9f-496c-94f3-1d6e7044748e.jpg?1783914099",
+    "png": "https://cards.scryfall.io/png/front/5/e/5e605142-6e9f-496c-94f3-1d6e7044748e.png?1783914099"
+   }
+  ],
+  "uri": "https://scryfall.com/card/ltr/583/gl%C3%B3in-dwarf-emissary?utm_source=api",
+  "set": "ltr",
+  "cn": "583"
+ },
+ {
+  "qty": 1,
+  "name": "Goldlust Triad",
+  "commander": false,
+  "type_line": "Creature \u2014 Dragon",
+  "mana_cost": "{4}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/a/7/a770d7c1-565a-4cec-a4e3-dbb17b9a2b95.jpg?1787701167",
+    "large": "https://cards.scryfall.io/large/front/a/7/a770d7c1-565a-4cec-a4e3-dbb17b9a2b95.jpg?1787701167",
+    "png": "https://cards.scryfall.io/png/front/a/7/a770d7c1-565a-4cec-a4e3-dbb17b9a2b95.png?1787701167"
+   }
+  ],
+  "uri": "https://scryfall.com/card/plst/TDC-34/goldlust-triad?utm_source=api",
+  "set": "plst",
+  "cn": "TDC-34"
+ },
+ {
+  "qty": 1,
+  "name": "Greenhouse Propagator",
+  "commander": false,
+  "type_line": "Creature \u2014 Cat Druid",
+  "mana_cost": "{2}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/a/5/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg?1789127136",
+    "large": "https://cards.scryfall.io/large/front/a/5/a56e0f91-b128-4693-a949-53cb403f4fbf.jpg?1789127136",
+    "png": "https://cards.scryfall.io/png/front/a/5/a56e0f91-b128-4693-a949-53cb403f4fbf.png?1789127136"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/104/greenhouse-propagator?utm_source=api",
+  "set": "fra",
+  "cn": "104"
+ },
+ {
+  "qty": 1,
+  "name": "Heartwood Crafter // Soul Tether",
+  "commander": false,
+  "type_line": "Creature \u2014 Elf Artificer // Sorcery",
+  "mana_cost": "{G} // {2}{R/G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/9/1/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg?1789127630",
+    "large": "https://cards.scryfall.io/large/front/9/1/910a1f41-17fd-4ab0-9597-7151e79dc760.jpg?1789127630",
+    "png": "https://cards.scryfall.io/png/front/9/1/910a1f41-17fd-4ab0-9597-7151e79dc760.png?1789127630"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/105/heartwood-crafter-soul-tether?utm_source=api",
+  "set": "fra",
+  "cn": "105"
+ },
+ {
+  "qty": 1,
+  "name": "Hellkite Igniter",
+  "commander": false,
+  "type_line": "Creature \u2014 Dragon",
+  "mana_cost": "{5}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/d/c/dc03ad3e-8113-432c-bff6-3ced73af8728.jpg?1783917146",
+    "large": "https://cards.scryfall.io/large/front/d/c/dc03ad3e-8113-432c-bff6-3ced73af8728.jpg?1783917146",
+    "png": "https://cards.scryfall.io/png/front/d/c/dc03ad3e-8113-432c-bff6-3ced73af8728.png?1783917146"
+   }
+  ],
+  "uri": "https://scryfall.com/card/moc/284/hellkite-igniter?utm_source=api",
+  "set": "moc",
+  "cn": "284"
+ },
+ {
+  "qty": 1,
+  "name": "Hellkite Tyrant",
+  "commander": false,
+  "type_line": "Creature \u2014 Dragon",
+  "mana_cost": "{4}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/2/0/2078d569-47c1-43c8-b34f-ef84951b7566.jpg?1783913171",
+    "large": "https://cards.scryfall.io/large/front/2/0/2078d569-47c1-43c8-b34f-ef84951b7566.jpg?1783913171",
+    "png": "https://cards.scryfall.io/png/front/2/0/2078d569-47c1-43c8-b34f-ef84951b7566.png?1783913171"
+   }
+  ],
+  "uri": "https://scryfall.com/card/rvr/428/hellkite-tyrant?utm_source=api",
+  "set": "rvr",
+  "cn": "428"
+ },
+ {
+  "qty": 1,
+  "name": "Heroes for Hire",
+  "commander": false,
+  "type_line": "Enchantment",
+  "mana_cost": "{3}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/7/37759556-ea31-47b4-8457-a83d17a51e28.jpg?1783903050",
+    "large": "https://cards.scryfall.io/large/front/3/7/37759556-ea31-47b4-8457-a83d17a51e28.jpg?1783903050",
+    "png": "https://cards.scryfall.io/png/front/3/7/37759556-ea31-47b4-8457-a83d17a51e28.png?1783903050"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/688/heroes-for-hire?utm_source=api",
+  "set": "msc",
+  "cn": "688"
+ },
+ {
+  "qty": 1,
+  "name": "Hot Dog Cart",
+  "commander": false,
+  "type_line": "Artifact",
+  "mana_cost": "{3}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/6/e/6ee3b883-e9f5-426f-a2ea-96fe9ff3aba9.jpg?1783905305",
+    "large": "https://cards.scryfall.io/large/front/6/e/6ee3b883-e9f5-426f-a2ea-96fe9ff3aba9.jpg?1783905305",
+    "png": "https://cards.scryfall.io/png/front/6/e/6ee3b883-e9f5-426f-a2ea-96fe9ff3aba9.png?1783905305"
+   }
+  ],
+  "uri": "https://scryfall.com/card/spm/164/hot-dog-cart?utm_source=api",
+  "set": "spm",
+  "cn": "164"
+ },
+ {
+  "qty": 1,
+  "name": "Hulkbuster Armor",
+  "commander": false,
+  "type_line": "Legendary Artifact \u2014 Equipment",
+  "mana_cost": "{4}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/4/f/4fb937ec-83e6-4911-99e0-f83aa2b36850.jpg?1783903136",
+    "large": "https://cards.scryfall.io/large/front/4/f/4fb937ec-83e6-4911-99e0-f83aa2b36850.jpg?1783903136",
+    "png": "https://cards.scryfall.io/png/front/4/f/4fb937ec-83e6-4911-99e0-f83aa2b36850.png?1783903136"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/438/hulkbuster-armor?utm_source=api",
+  "set": "msc",
+  "cn": "438"
+ },
+ {
+  "qty": 1,
+  "name": "Hunter's Axe",
+  "commander": false,
+  "type_line": "Artifact \u2014 Equipment",
+  "mana_cost": "{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/a/2/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.jpg?1789556822",
+    "large": "https://cards.scryfall.io/large/front/a/2/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.jpg?1789556822",
+    "png": "https://cards.scryfall.io/png/front/a/2/a2cc5d0e-9643-4ee2-81de-fa2c3bd1ab09.png?1789556822"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/108/hunters-axe?utm_source=api",
+  "set": "fra",
+  "cn": "108"
+ },
+ {
+  "qty": 1,
+  "name": "Keeper of the Quiet Hour",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Chimera",
+  "mana_cost": "{3}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg?1788878239",
+    "large": "https://cards.scryfall.io/large/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.jpg?1788878239",
+    "png": "https://cards.scryfall.io/png/front/b/6/b6331218-dbb8-44a9-8ba5-5fb1ab41c5c0.png?1788878239"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/171/keeper-of-the-quiet-hour?utm_source=api",
+  "set": "fra",
+  "cn": "171"
+ },
+ {
+  "qty": 1,
+  "name": "Konstrari Annex",
+  "commander": false,
+  "type_line": "Land",
+  "mana_cost": "",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/9/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg?1789556993",
+    "large": "https://cards.scryfall.io/large/front/3/9/39c805e3-82cd-42a9-80fe-8d81712a94ea.jpg?1789556993",
+    "png": "https://cards.scryfall.io/png/front/3/9/39c805e3-82cd-42a9-80fe-8d81712a94ea.png?1789556993"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/183/konstrari-annex?utm_source=api",
+  "set": "fra",
+  "cn": "183"
+ },
+ {
+  "qty": 1,
+  "name": "Konstrari Charm",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{R}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/2/2/2261c33e-1667-4554-ad31-0adf4805a69d.jpg?1790137816",
+    "large": "https://cards.scryfall.io/large/front/2/2/2261c33e-1667-4554-ad31-0adf4805a69d.jpg?1790137816",
+    "png": "https://cards.scryfall.io/png/front/2/2/2261c33e-1667-4554-ad31-0adf4805a69d.png?1790137816"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/433/konstrari-charm?utm_source=api",
+  "set": "fra",
+  "cn": "433"
+ },
+ {
+  "qty": 1,
+  "name": "Konstrari Improviser // Soul Tether",
+  "commander": false,
+  "type_line": "Creature \u2014 Human Artificer // Sorcery",
+  "mana_cost": "{1}{R/G} // {2}{R/G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/4/2/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg?1789556881",
+    "large": "https://cards.scryfall.io/large/front/4/2/42e28bd2-486b-45d4-8840-6e33c19c2d57.jpg?1789556881",
+    "png": "https://cards.scryfall.io/png/front/4/2/42e28bd2-486b-45d4-8840-6e33c19c2d57.png?1789556881"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/139/konstrari-improviser-soul-tether?utm_source=api",
+  "set": "fra",
+  "cn": "139"
+ },
+ {
+  "qty": 1,
+  "name": "Living Library",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Book Illusion",
+  "mana_cost": "{2}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/5/d/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg?1789556949",
+    "large": "https://cards.scryfall.io/large/front/5/d/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.jpg?1789556949",
+    "png": "https://cards.scryfall.io/png/front/5/d/5d4a8e5f-0024-4da3-a2f5-edb48b12e733.png?1789556949"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/172/living-library?utm_source=api",
+  "set": "fra",
+  "cn": "172"
+ },
+ {
+  "qty": 1,
+  "name": "Loot, the Nexus",
+  "commander": false,
+  "type_line": "Legendary Creature \u2014 Beast Noble",
+  "mana_cost": "{2}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/c/3cfa4fc6-4d90-4576-a83f-6496c7f21104.jpg?1789614764",
+    "large": "https://cards.scryfall.io/large/front/3/c/3cfa4fc6-4d90-4576-a83f-6496c7f21104.jpg?1789614764",
+    "png": "https://cards.scryfall.io/png/front/3/c/3cfa4fc6-4d90-4576-a83f-6496c7f21104.png?1789614764"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/262/loot-the-nexus?utm_source=api",
+  "set": "fra",
+  "cn": "262"
+ },
+ {
+  "qty": 1,
+  "name": "Machinesmith Automaton",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Robot Villain",
+  "mana_cost": "{2}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/8/0/802e663e-9529-46da-8af4-eb9ca07971b1.jpg?1783902927",
+    "large": "https://cards.scryfall.io/large/front/8/0/802e663e-9529-46da-8af4-eb9ca07971b1.jpg?1783902927",
+    "png": "https://cards.scryfall.io/png/front/8/0/802e663e-9529-46da-8af4-eb9ca07971b1.png?1783902927"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msh/144/machinesmith-automaton?utm_source=api",
+  "set": "msh",
+  "cn": "144"
+ },
+ {
+  "qty": 1,
+  "name": "Magda, Brazen Outlaw",
+  "commander": false,
+  "type_line": "Legendary Creature \u2014 Dwarf Berserker",
+  "mana_cost": "{1}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/5/35f229b2-5246-4399-8468-eb030842a17b.jpg?1783911480",
+    "large": "https://cards.scryfall.io/large/front/3/5/35f229b2-5246-4399-8468-eb030842a17b.jpg?1783911480",
+    "png": "https://cards.scryfall.io/png/front/3/5/35f229b2-5246-4399-8468-eb030842a17b.png?1783911480"
+   }
+  ],
+  "uri": "https://scryfall.com/card/sld/1688/magda-brazen-outlaw?utm_source=api",
+  "set": "sld",
+  "cn": "1688"
+ },
+ {
+  "qty": 1,
+  "name": "Metalwork Colossus",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Construct",
+  "mana_cost": "{11}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/8/2/82d868c2-aa72-4141-b508-9ff13c76ec4b.jpg?1783903131",
+    "large": "https://cards.scryfall.io/large/front/8/2/82d868c2-aa72-4141-b508-9ff13c76ec4b.jpg?1783903131",
+    "png": "https://cards.scryfall.io/png/front/8/2/82d868c2-aa72-4141-b508-9ff13c76ec4b.png?1783903131"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/442/metalwork-colossus?utm_source=api",
+  "set": "msc",
+  "cn": "442"
+ },
+ {
+  "qty": 1,
+  "name": "Orcrist, Goblin-cleaver",
+  "commander": false,
+  "type_line": "Legendary Artifact \u2014 Equipment",
+  "mana_cost": "{3}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/a/4/a496a9e4-8dd7-44a2-a4b2-d4ecfc8ee7c8.jpg?1784760220",
+    "large": "https://cards.scryfall.io/large/front/a/4/a496a9e4-8dd7-44a2-a4b2-d4ecfc8ee7c8.jpg?1784760220",
+    "png": "https://cards.scryfall.io/png/front/a/4/a496a9e4-8dd7-44a2-a4b2-d4ecfc8ee7c8.png?1784760220"
+   }
+  ],
+  "uri": "https://scryfall.com/card/hob/272/orcrist-goblin-cleaver?utm_source=api",
+  "set": "hob",
+  "cn": "272"
+ },
+ {
+  "qty": 1,
+  "name": "Pia, Aether Ascetic",
+  "commander": false,
+  "type_line": "Legendary Creature \u2014 Human Druid",
+  "mana_cost": "{2}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/f/f/ff0bc30f-9d20-458e-808f-bdc2825905a5.jpg?1789387120",
+    "large": "https://cards.scryfall.io/large/front/f/f/ff0bc30f-9d20-458e-808f-bdc2825905a5.jpg?1789387120",
+    "png": "https://cards.scryfall.io/png/front/f/f/ff0bc30f-9d20-458e-808f-bdc2825905a5.png?1789387120"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/264/pia-aether-ascetic?utm_source=api",
+  "set": "fra",
+  "cn": "264"
+ },
+ {
+  "qty": 1,
+  "name": "Pia, Determined Rebuilder",
+  "commander": false,
+  "type_line": "Legendary Creature \u2014 Human Artificer",
+  "mana_cost": "{2}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg?1789385851",
+    "large": "https://cards.scryfall.io/large/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.jpg?1789385851",
+    "png": "https://cards.scryfall.io/png/front/d/d/dd3faaf4-45ca-4714-8dbe-37102ec131cf.png?1789385851"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/250/pia-determined-rebuilder?utm_source=api",
+  "set": "fra",
+  "cn": "250"
+ },
+ {
+  "qty": 1,
+  "name": "Puppet Crafting",
+  "commander": false,
+  "type_line": "Enchantment \u2014 Aura",
+  "mana_cost": "{1}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/1/5/15126d14-3737-4377-8476-e5f05a54fc77.jpg?1790136480",
+    "large": "https://cards.scryfall.io/large/front/1/5/15126d14-3737-4377-8476-e5f05a54fc77.jpg?1790136480",
+    "png": "https://cards.scryfall.io/png/front/1/5/15126d14-3737-4377-8476-e5f05a54fc77.png?1790136480"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/373/puppet-crafting?utm_source=api",
+  "set": "fra",
+  "cn": "373"
+ },
+ {
+  "qty": 1,
+  "name": "Rapacious Dragon",
+  "commander": false,
+  "type_line": "Creature \u2014 Dragon",
+  "mana_cost": "{4}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/2/7/271b249a-2cca-4a52-bbff-0f44f0ab51f9.jpg?1789753094",
+    "large": "https://cards.scryfall.io/large/front/2/7/271b249a-2cca-4a52-bbff-0f44f0ab51f9.jpg?1789753094",
+    "png": "https://cards.scryfall.io/png/front/2/7/271b249a-2cca-4a52-bbff-0f44f0ab51f9.png?1789753094"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fdc/171/rapacious-dragon?utm_source=api",
+  "set": "fdc",
+  "cn": "171"
+ },
+ {
+  "qty": 1,
+  "name": "Reckless Handling",
+  "commander": false,
+  "type_line": "Sorcery",
+  "mana_cost": "{1}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/6/7/677b021e-207c-42f8-9d53-1f58fe7fcd6d.jpg?1783916426",
+    "large": "https://cards.scryfall.io/large/front/6/7/677b021e-207c-42f8-9d53-1f58fe7fcd6d.jpg?1783916426",
+    "png": "https://cards.scryfall.io/png/front/6/7/677b021e-207c-42f8-9d53-1f58fe7fcd6d.png?1783916426"
+   }
+  ],
+  "uri": "https://scryfall.com/card/mat/203/reckless-handling?utm_source=api",
+  "set": "mat",
+  "cn": "203"
+ },
+ {
+  "qty": 1,
+  "name": "Return of the Wildspeaker",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{4}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/c/9/c924fa52-a835-4259-8bfd-2cde60bdfcc5.jpg?1783904847",
+    "large": "https://cards.scryfall.io/large/front/c/9/c924fa52-a835-4259-8bfd-2cde60bdfcc5.jpg?1783904847",
+    "png": "https://cards.scryfall.io/png/front/c/9/c924fa52-a835-4259-8bfd-2cde60bdfcc5.png?1783904847"
+   }
+  ],
+  "uri": "https://scryfall.com/card/tle/44/return-of-the-wildspeaker?utm_source=api",
+  "set": "tle",
+  "cn": "44"
+ },
+ {
+  "qty": 1,
+  "name": "Riftburst Hellion",
+  "commander": false,
+  "type_line": "Creature \u2014 Hellion",
+  "mana_cost": "{5}{R}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/9/f/9fae9044-a859-434d-8dc6-4f9d455ca5e1.jpg?1783912840",
+    "large": "https://cards.scryfall.io/large/front/9/f/9fae9044-a859-434d-8dc6-4f9d455ca5e1.jpg?1783912840",
+    "png": "https://cards.scryfall.io/png/front/9/f/9fae9044-a859-434d-8dc6-4f9d455ca5e1.png?1783912840"
+   }
+  ],
+  "uri": "https://scryfall.com/card/mkm/228/riftburst-hellion?utm_source=api",
+  "set": "mkm",
+  "cn": "228"
+ },
+ {
+  "qty": 1,
+  "name": "Shiny Impetus",
+  "commander": false,
+  "type_line": "Enchantment \u2014 Aura",
+  "mana_cost": "{2}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/7/1/71bcf8d7-cc70-4d52-9607-09ed7e08d61b.jpg?1783995450",
+    "large": "https://cards.scryfall.io/large/front/7/1/71bcf8d7-cc70-4d52-9607-09ed7e08d61b.jpg?1783995450",
+    "png": "https://cards.scryfall.io/png/front/7/1/71bcf8d7-cc70-4d52-9607-09ed7e08d61b.png?1783995450"
+   }
+  ],
+  "uri": "https://scryfall.com/card/sld/7165/shiny-impetus?utm_source=api",
+  "set": "sld",
+  "cn": "7165"
+ },
+ {
+  "qty": 1,
+  "name": "Shuri's Fabricator",
+  "commander": false,
+  "type_line": "Artifact",
+  "mana_cost": "{4}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/f/4/f4752691-fc58-4922-b4bc-89918f73f73e.jpg?1783903129",
+    "large": "https://cards.scryfall.io/large/front/f/4/f4752691-fc58-4922-b4bc-89918f73f73e.jpg?1783903129",
+    "png": "https://cards.scryfall.io/png/front/f/4/f4752691-fc58-4922-b4bc-89918f73f73e.png?1783903129"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/450/shuris-fabricator?utm_source=api",
+  "set": "msc",
+  "cn": "450"
+ },
+ {
+  "qty": 1,
+  "name": "Smaug the Magnificent",
+  "commander": false,
+  "type_line": "Legendary Creature \u2014 Dragon",
+  "mana_cost": "{2}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/b/6/b6529666-0ec8-45a8-8740-3bffc19d2265.jpg?1783902779",
+    "large": "https://cards.scryfall.io/large/front/b/6/b6529666-0ec8-45a8-8740-3bffc19d2265.jpg?1783902779",
+    "png": "https://cards.scryfall.io/png/front/b/6/b6529666-0ec8-45a8-8740-3bffc19d2265.png?1783902779"
+   }
+  ],
+  "uri": "https://scryfall.com/card/hob/265/smaug-the-magnificent?utm_source=api",
+  "set": "hob",
+  "cn": "265"
+ },
+ {
+  "qty": 1,
+  "name": "Snakeskin Veil",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/7/2/722b3cf0-f25b-4dbc-8885-d8eb96a7ce51.jpg?1783907433",
+    "large": "https://cards.scryfall.io/large/front/7/2/722b3cf0-f25b-4dbc-8885-d8eb96a7ce51.jpg?1783907433",
+    "png": "https://cards.scryfall.io/png/front/7/2/722b3cf0-f25b-4dbc-8885-d8eb96a7ce51.png?1783907433"
+   }
+  ],
+  "uri": "https://scryfall.com/card/pcbb/5/snakeskin-veil?utm_source=api",
+  "set": "pcbb",
+  "cn": "5"
+ },
+ {
+  "qty": 1,
+  "name": "Sol Ring",
+  "commander": false,
+  "type_line": "Artifact",
+  "mana_cost": "{1}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/2/4/24afe08b-6b88-42b3-a996-33f138431a87.jpg?1785502093",
+    "large": "https://cards.scryfall.io/large/front/2/4/24afe08b-6b88-42b3-a996-33f138431a87.jpg?1785502093",
+    "png": "https://cards.scryfall.io/png/front/2/4/24afe08b-6b88-42b3-a996-33f138431a87.png?1785502093"
+   }
+  ],
+  "uri": "https://scryfall.com/card/sld/2560/sol-ring?utm_source=api",
+  "set": "sld",
+  "cn": "2560"
+ },
+ {
+  "qty": 1,
+  "name": "Spider Manifestation",
+  "commander": false,
+  "type_line": "Creature \u2014 Spider Avatar",
+  "mana_cost": "{1}{R/G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/9/9/99223677-b8a5-48f1-8009-e8475eada7db.jpg?1783905310",
+    "large": "https://cards.scryfall.io/large/front/9/9/99223677-b8a5-48f1-8009-e8475eada7db.jpg?1783905310",
+    "png": "https://cards.scryfall.io/png/front/9/9/99223677-b8a5-48f1-8009-e8475eada7db.png?1783905310"
+   }
+  ],
+  "uri": "https://scryfall.com/card/spm/148/spider-manifestation?utm_source=api",
+  "set": "spm",
+  "cn": "148"
+ },
+ {
+  "qty": 1,
+  "name": "Stone-Giant of High Pass",
+  "commander": false,
+  "type_line": "Creature \u2014 Giant",
+  "mana_cost": "{5}{R}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/1/a/1adfc347-5c69-45e1-829b-aaae19e04b96.jpg?1787203559",
+    "large": "https://cards.scryfall.io/large/front/1/a/1adfc347-5c69-45e1-829b-aaae19e04b96.jpg?1787203559",
+    "png": "https://cards.scryfall.io/png/front/1/a/1adfc347-5c69-45e1-829b-aaae19e04b96.png?1787203559"
+   }
+  ],
+  "uri": "https://scryfall.com/card/hob/304/stone-giant-of-high-pass?utm_source=api",
+  "set": "hob",
+  "cn": "304"
+ },
+ {
+  "qty": 1,
+  "name": "Tamiyo's Safekeeping",
+  "commander": false,
+  "type_line": "Instant",
+  "mana_cost": "{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/8/38b54450-0d5c-4c00-9017-44702519b5d9.jpg?1783905153",
+    "large": "https://cards.scryfall.io/large/front/3/8/38b54450-0d5c-4c00-9017-44702519b5d9.jpg?1783905153",
+    "png": "https://cards.scryfall.io/png/front/3/8/38b54450-0d5c-4c00-9017-44702519b5d9.png?1783905153"
+   }
+  ],
+  "uri": "https://scryfall.com/card/sld/2335/tamiyos-safekeeping?utm_source=api",
+  "set": "sld",
+  "cn": "2335"
+ },
+ {
+  "qty": 1,
+  "name": "Tenured Tethermage",
+  "commander": false,
+  "type_line": "Creature \u2014 Human Artificer",
+  "mana_cost": "{1}{R}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/6/a/6ae471aa-74c3-416b-a884-bcf1bb2f6004.jpg?1790136293",
+    "large": "https://cards.scryfall.io/large/front/6/a/6ae471aa-74c3-416b-a884-bcf1bb2f6004.jpg?1790136293",
+    "png": "https://cards.scryfall.io/png/front/6/a/6ae471aa-74c3-416b-a884-bcf1bb2f6004.png?1790136293"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/357/tenured-tethermage?utm_source=api",
+  "set": "fra",
+  "cn": "357"
+ },
+ {
+  "qty": 1,
+  "name": "The Black Arrow",
+  "commander": false,
+  "type_line": "Legendary Artifact \u2014 Equipment",
+  "mana_cost": "{3}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/a/b/ab181190-d53d-4972-8cd5-8e54b45f2276.jpg?1785496386",
+    "large": "https://cards.scryfall.io/large/front/a/b/ab181190-d53d-4972-8cd5-8e54b45f2276.jpg?1785496386",
+    "png": "https://cards.scryfall.io/png/front/a/b/ab181190-d53d-4972-8cd5-8e54b45f2276.png?1785496386"
+   }
+  ],
+  "uri": "https://scryfall.com/card/hob/171/the-black-arrow?utm_source=api",
+  "set": "hob",
+  "cn": "171"
+ },
+ {
+  "qty": 1,
+  "name": "The Great Mound",
+  "commander": false,
+  "type_line": "Land",
+  "mana_cost": "",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/9/2/9213e202-48ba-44f9-82ea-91dd997ba268.jpg?1783903119",
+    "large": "https://cards.scryfall.io/large/front/9/2/9213e202-48ba-44f9-82ea-91dd997ba268.jpg?1783903119",
+    "png": "https://cards.scryfall.io/png/front/9/2/9213e202-48ba-44f9-82ea-91dd997ba268.png?1783903119"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/479/the-great-mound?utm_source=api",
+  "set": "msc",
+  "cn": "479"
+ },
+ {
+  "qty": 1,
+  "name": "The Misty Mountains Cold",
+  "commander": false,
+  "type_line": "Enchantment \u2014 Saga",
+  "mana_cost": "{2}{R}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/1/a/1aaf8a8a-1032-4ee5-9c18-2debb40ec561.jpg?1787477948",
+    "large": "https://cards.scryfall.io/large/front/1/a/1aaf8a8a-1032-4ee5-9c18-2debb40ec561.jpg?1787477948",
+    "png": "https://cards.scryfall.io/png/front/1/a/1aaf8a8a-1032-4ee5-9c18-2debb40ec561.png?1787477948"
+   }
+  ],
+  "uri": "https://scryfall.com/card/hob/321/the-misty-mountains-cold?utm_source=api",
+  "set": "hob",
+  "cn": "321"
+ },
+ {
+  "qty": 1,
+  "name": "Thriving Bluff",
+  "commander": false,
+  "type_line": "Land",
+  "mana_cost": "",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.jpg?1783903090",
+    "large": "https://cards.scryfall.io/large/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.jpg?1783903090",
+    "png": "https://cards.scryfall.io/png/front/8/2/82c96473-d7b9-48dc-9569-cdb649c78463.png?1783903090"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/578/thriving-bluff?utm_source=api",
+  "set": "msc",
+  "cn": "578"
+ },
+ {
+  "qty": 1,
+  "name": "Thriving Grove",
+  "commander": false,
+  "type_line": "Land",
+  "mana_cost": "",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/e/e/eef65ebc-12d6-4438-a908-2a0c28329124.jpg?1783903090",
+    "large": "https://cards.scryfall.io/large/front/e/e/eef65ebc-12d6-4438-a908-2a0c28329124.jpg?1783903090",
+    "png": "https://cards.scryfall.io/png/front/e/e/eef65ebc-12d6-4438-a908-2a0c28329124.png?1783903090"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/579/thriving-grove?utm_source=api",
+  "set": "msc",
+  "cn": "579"
+ },
+ {
+  "qty": 1,
+  "name": "Traxos, Scourge Eternal",
+  "commander": false,
+  "type_line": "Legendary Artifact Creature \u2014 Dragon Construct",
+  "mana_cost": "{4}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/0/5/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg?1789557046",
+    "large": "https://cards.scryfall.io/large/front/0/5/05102c46-96f8-44a0-a1e6-e388fa5e0841.jpg?1789557046",
+    "png": "https://cards.scryfall.io/png/front/0/5/05102c46-96f8-44a0-a1e6-e388fa5e0841.png?1789557046"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/280/traxos-scourge-eternal?utm_source=api",
+  "set": "fra",
+  "cn": "280"
+ },
+ {
+  "qty": 1,
+  "name": "Troop of Ponies",
+  "commander": false,
+  "type_line": "Creature \u2014 Horse",
+  "mana_cost": "{2}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/6/c/6cbcd606-b864-4b81-9596-e7788befdd1f.jpg?1785497189",
+    "large": "https://cards.scryfall.io/large/front/6/c/6cbcd606-b864-4b81-9596-e7788befdd1f.jpg?1785497189",
+    "png": "https://cards.scryfall.io/png/front/6/c/6cbcd606-b864-4b81-9596-e7788befdd1f.png?1785497189"
+   }
+  ],
+  "uri": "https://scryfall.com/card/hob/199/troop-of-ponies?utm_source=api",
+  "set": "hob",
+  "cn": "199"
+ },
+ {
+  "qty": 1,
+  "name": "Ultron, Artificial Malevolence",
+  "commander": false,
+  "type_line": "Legendary Artifact Creature \u2014 Robot Villain",
+  "mana_cost": "{3}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/d/f/df9302a8-e918-429c-8853-133c489223f1.jpg?1783902834",
+    "large": "https://cards.scryfall.io/large/front/d/f/df9302a8-e918-429c-8853-133c489223f1.jpg?1783902834",
+    "png": "https://cards.scryfall.io/png/front/d/f/df9302a8-e918-429c-8853-133c489223f1.png?1783902834"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msh/401/ultron-artificial-malevolence?utm_source=api",
+  "set": "msh",
+  "cn": "401"
+ },
+ {
+  "qty": 1,
+  "name": "Vibranium Mining Mech",
+  "commander": false,
+  "type_line": "Artifact \u2014 Vehicle",
+  "mana_cost": "{4}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/9/d/9d999d5c-4657-442e-8e27-b31f3592c065.jpg?1783903128",
+    "large": "https://cards.scryfall.io/large/front/9/d/9d999d5c-4657-442e-8e27-b31f3592c065.jpg?1783903128",
+    "png": "https://cards.scryfall.io/png/front/9/d/9d999d5c-4657-442e-8e27-b31f3592c065.png?1783903128"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msc/458/vibranium-mining-mech?utm_source=api",
+  "set": "msc",
+  "cn": "458"
+ },
+ {
+  "qty": 1,
+  "name": "Woodwork Prodigy // Soul Tether",
+  "commander": false,
+  "type_line": "Creature \u2014 Cat Druid // Sorcery",
+  "mana_cost": "{2}{R/G} // {2}{R/G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/7/d/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg?1788329429",
+    "large": "https://cards.scryfall.io/large/front/7/d/7d17f7e3-7b63-4674-9024-4fd1827f40ec.jpg?1788329429",
+    "png": "https://cards.scryfall.io/png/front/7/d/7d17f7e3-7b63-4674-9024-4fd1827f40ec.png?1788329429"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/165/woodwork-prodigy-soul-tether?utm_source=api",
+  "set": "fra",
+  "cn": "165"
+ },
+ {
+  "qty": 1,
+  "name": "World War Hulk",
+  "commander": false,
+  "type_line": "Enchantment \u2014 Saga",
+  "mana_cost": "{3}{G}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/5/1/51524f8a-030c-4522-bfc0-d55c2c7c9326.jpg?1783902870",
+    "large": "https://cards.scryfall.io/large/front/5/1/51524f8a-030c-4522-bfc0-d55c2c7c9326.jpg?1783902870",
+    "png": "https://cards.scryfall.io/png/front/5/1/51524f8a-030c-4522-bfc0-d55c2c7c9326.png?1783902870"
+   }
+  ],
+  "uri": "https://scryfall.com/card/msh/304/world-war-hulk?utm_source=api",
+  "set": "msh",
+  "cn": "304"
+ },
+ {
+  "qty": 1,
+  "name": "Wrecking Gecko",
+  "commander": false,
+  "type_line": "Artifact Creature \u2014 Lizard Construct",
+  "mana_cost": "{4}{G}",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/3/d/3d693cb0-681e-480a-8f70-07e94c39225c.jpg?1789385843",
+    "large": "https://cards.scryfall.io/large/front/3/d/3d693cb0-681e-480a-8f70-07e94c39225c.jpg?1789385843",
+    "png": "https://cards.scryfall.io/png/front/3/d/3d693cb0-681e-480a-8f70-07e94c39225c.png?1789385843"
+   }
+  ],
+  "uri": "https://scryfall.com/card/fra/120/wrecking-gecko?utm_source=api",
+  "set": "fra",
+  "cn": "120"
+ },
+ {
+  "qty": 17,
+  "name": "Forest",
+  "commander": false,
+  "type_line": "Basic Land \u2014 Forest",
+  "mana_cost": "",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/2/e/2e781bfd-f8cb-4d20-b977-4359f3a21311.jpg?1791578317",
+    "large": "https://cards.scryfall.io/large/front/2/e/2e781bfd-f8cb-4d20-b977-4359f3a21311.jpg?1791578317",
+    "png": "https://cards.scryfall.io/png/front/2/e/2e781bfd-f8cb-4d20-b977-4359f3a21311.png?1791578317"
+   }
+  ],
+  "uri": "https://scryfall.com/card/mdd/301/forest?utm_source=api",
+  "set": "mdd",
+  "cn": "301"
+ },
+ {
+  "qty": 15,
+  "name": "Mountain",
+  "commander": false,
+  "type_line": "Basic Land \u2014 Mountain",
+  "mana_cost": "",
+  "faces": [
+   {
+    "normal": "https://cards.scryfall.io/normal/front/8/5/85177bd7-6c50-48da-b692-ae5fe7bd357c.jpg?1791578439",
+    "large": "https://cards.scryfall.io/large/front/8/5/85177bd7-6c50-48da-b692-ae5fe7bd357c.jpg?1791578439",
+    "png": "https://cards.scryfall.io/png/front/8/5/85177bd7-6c50-48da-b692-ae5fe7bd357c.png?1791578439"
+   }
+  ],
+  "uri": "https://scryfall.com/card/mdd/298/mountain?utm_source=api",
+  "set": "mdd",
+  "cn": "298"
+ }
+]

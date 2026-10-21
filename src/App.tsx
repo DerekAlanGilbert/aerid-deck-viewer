@@ -1,0 +1,87 @@
+import { useEffect, useMemo, useState } from 'react'
+import deck from './deck.json'
+
+type Face = { normal: string; large: string; png?: string | null }
+type Card = { qty: number; name: string; commander: boolean; type_line: string; mana_cost: string; faces: Face[]; uri: string }
+const cards = deck as Card[]
+const ORDER = ['Commander', 'Creatures', 'Planeswalkers', 'Artifacts', 'Enchantments', 'Instants', 'Sorceries', 'Battles', 'Lands', 'Other']
+const MOX = 'https://moxfield.com/decks/jZovhvZTckuZY5ow0XN7_A'
+
+function group(c: Card) {
+  if (c.commander) return 'Commander'
+  const t = c.type_line.split('—')[0]
+  for (const [k, g] of [['Creature', 'Creatures'], ['Planeswalker', 'Planeswalkers'], ['Land', 'Lands'], ['Artifact', 'Artifacts'], ['Enchantment', 'Enchantments'], ['Instant', 'Instants'], ['Sorcery', 'Sorceries'], ['Battle', 'Battles']])
+    if (t.includes(k)) return g
+  return 'Other'
+}
+
+function Tile({ c, onOpen }: { c: Card; onOpen: () => void }) {
+  const [f, setF] = useState(0)
+  return (
+    <div className="relative">
+      <button onClick={onOpen} className="block w-full rounded-[4.5%] overflow-hidden shadow-lg shadow-black/60 ring-1 ring-white/5 active:scale-[0.98] transition" aria-label={c.name}>
+        <img src={c.faces[f].normal} alt={c.name} loading="lazy" className="w-full aspect-[488/680] bg-neutral-900" />
+      </button>
+      {c.qty > 1 && <span className="absolute top-2 right-2 rounded-full bg-amber-500 text-black text-xs font-bold px-2 py-0.5 shadow">×{c.qty}</span>}
+      {c.faces.length > 1 && (
+        <button onClick={() => setF((f + 1) % c.faces.length)} className="absolute bottom-2 right-2 rounded-full bg-black/70 backdrop-blur text-white text-xs px-2.5 py-1 ring-1 ring-white/20">⟲ Flip</button>
+      )}
+    </div>
+  )
+}
+
+function Modal({ c, onClose }: { c: Card; onClose: () => void }) {
+  const [y0, setY0] = useState<number | null>(null)
+  useEffect(() => {
+    const k = (e: KeyboardEvent) => e.key === 'Escape' && onClose()
+    addEventListener('keydown', k); document.body.style.overflow = 'hidden'
+    return () => { removeEventListener('keydown', k); document.body.style.overflow = '' }
+  }, [onClose])
+  return (
+    <div className="fixed inset-0 z-50 bg-black/90 backdrop-blur-sm overflow-y-auto" onClick={onClose}
+      onTouchStart={e => setY0(e.touches[0].clientY)} onTouchEnd={e => { if (y0 !== null && Math.abs(e.changedTouches[0].clientY - y0) > 90) onClose() }}>
+      <button className="fixed top-3 right-3 z-10 h-10 w-10 rounded-full bg-white/10 text-2xl leading-none" aria-label="Close">×</button>
+      <div className="min-h-full flex flex-col items-center justify-center gap-4 p-4 py-14">
+        {c.faces.map((f, i) => <img key={i} src={f.large} alt={c.name} className="w-full max-w-md rounded-[4.5%] shadow-2xl" />)}
+        <a href={c.uri} target="_blank" rel="noreferrer" onClick={e => e.stopPropagation()} className="text-sm text-stone-400 underline">{c.name} on Scryfall</a>
+      </div>
+    </div>
+  )
+}
+
+export default function App() {
+  const [open, setOpen] = useState<Card | null>(null)
+  const groups = useMemo(() => {
+    const m = new Map<string, Card[]>()
+    for (const c of cards) { const g = group(c); m.set(g, [...(m.get(g) ?? []), c]) }
+    return ORDER.filter(g => m.has(g)).map(g => [g, m.get(g)!] as const)
+  }, [])
+  const total = cards.reduce((s, c) => s + c.qty, 0)
+  return (
+    <div className="min-h-screen">
+      <header className="sticky top-0 z-40 bg-[#0b0b0f]/85 backdrop-blur border-b border-white/5">
+        <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+          <div className="min-w-0">
+            <h1 className="font-semibold truncate">Aerid Konstrari Artifacts</h1>
+            <p className="text-xs text-stone-400"><span className="text-red-400">●</span><span className="text-green-400">●</span> Red-green artifact tokens · {total} cards</p>
+          </div>
+          <a href={MOX} target="_blank" rel="noreferrer" className="shrink-0 text-xs rounded-full px-3 py-1.5 bg-white/10 hover:bg-white/15">Moxfield ↗</a>
+        </div>
+        <nav className="max-w-5xl mx-auto px-4 pb-2 flex gap-2 overflow-x-auto text-xs no-scrollbar">
+          {groups.map(([g, cs]) => <a key={g} href={'#' + g} className="shrink-0 rounded-full px-2.5 py-1 bg-white/5 text-stone-300">{g} {cs.reduce((s, c) => s + c.qty, 0)}</a>)}
+        </nav>
+      </header>
+      <main className="max-w-5xl mx-auto px-3 pb-16">
+        {groups.map(([g, cs]) => (
+          <section key={g} id={g} className="scroll-mt-28 pt-6">
+            <h2 className="mb-3 text-sm uppercase tracking-widest text-amber-400/90">{g} <span className="text-stone-500">({cs.reduce((s, c) => s + c.qty, 0)})</span></h2>
+            <div className={g === 'Commander' ? 'max-w-sm mx-auto' : 'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3'}>
+              {cs.map(c => <Tile key={c.name} c={c} onOpen={() => setOpen(c)} />)}
+            </div>
+          </section>
+        ))}
+      </main>
+      {open && <Modal c={open} onClose={() => setOpen(null)} />}
+    </div>
+  )
+}
