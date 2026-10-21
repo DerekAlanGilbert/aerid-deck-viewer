@@ -10,7 +10,7 @@ bun install && bun run dev
 ```
 
 ## Revisions
-The top tab row shows **Version 1** (the base deck in `src/deck.json`, which never changes) followed by one tab per entry in `src/revisions.json`. Each revision tab shows a git-diff view: removed cards on the left (red), added cards on the right (green).
+The top tab row shows **Current** (default: `src/deck.json` with every revision applied in order, computed at build time), **Version 1** (the original list in `src/deck.json`, never edited), then one tab per entry in `src/revisions.json`. Each revision tab shows a git-diff view: removed cards on the left (red), added on the right (green). Adding a revision automatically updates Current.
 
 To add the next revision:
 1. Append an entry to `src/revisions.json` using exact Scryfall card names:

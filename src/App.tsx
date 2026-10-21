@@ -7,6 +7,15 @@ type Card = { qty: number; name: string; commander: boolean; type_line: string; 
 const cards = deck as Card[]
 type Revision = { name: string; removed: Card[]; added: Card[] }
 const revisions = revData as Revision[]
+// Current deck = base list with every revision applied in order.
+const current: Card[] = (() => {
+  const m = new Map(cards.map(c => [c.name, { ...c }]))
+  for (const r of revisions) {
+    for (const c of r.removed) { const e = m.get(c.name); if (e) { e.qty -= 1; if (e.qty <= 0) m.delete(c.name) } else console.warn('Removed card not in deck:', c.name) }
+    for (const c of r.added) { const e = m.get(c.name); if (e) e.qty += 1; else m.set(c.name, { ...c, qty: 1 }) }
+  }
+  return [...m.values()]
+})()
 const ORDER = ['Commander', 'Creatures', 'Planeswalkers', 'Artifacts', 'Enchantments', 'Instants', 'Sorceries', 'Battles', 'Lands', 'Other']
 const MOX = 'https://moxfield.com/decks/jZovhvZTckuZY5ow0XN7_A'
 
@@ -75,14 +84,15 @@ function Diff({ r, onOpen }: { r: Revision; onOpen: (c: Card) => void }) {
 
 export default function App() {
   const [open, setOpen] = useState<Card | null>(null)
+  const tabs = ['Current', 'Version 1', ...revisions.map(r => r.name)]
   const [tab, setTab] = useState(0)
-  const tabs = ['Version 1', ...revisions.map(r => r.name)]
+  const list = tab === 1 ? cards : current
   const groups = useMemo(() => {
     const m = new Map<string, Card[]>()
-    for (const c of cards) { const g = group(c); m.set(g, [...(m.get(g) ?? []), c]) }
+    for (const c of list) { const g = group(c); m.set(g, [...(m.get(g) ?? []), c]) }
     return ORDER.filter(g => m.has(g)).map(g => [g, m.get(g)!] as const)
-  }, [])
-  const total = cards.reduce((s, c) => s + c.qty, 0)
+  }, [list])
+  const total = list.reduce((s, c) => s + c.qty, 0)
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 z-40 bg-[#0b0b0f]/85 backdrop-blur border-b border-white/5">
@@ -97,12 +107,12 @@ export default function App() {
           </div>
           <a href={MOX} target="_blank" rel="noreferrer" className="shrink-0 text-xs rounded-full px-3 py-1.5 bg-white/10 hover:bg-white/15">Moxfield ↗</a>
         </div>
-        {tab === 0 && <nav className="max-w-5xl mx-auto px-4 pb-2 flex gap-2 overflow-x-auto text-xs no-scrollbar">
+        {tab < 2 && <nav className="max-w-5xl mx-auto px-4 pb-2 flex gap-2 overflow-x-auto text-xs no-scrollbar">
           {groups.map(([g, cs]) => <a key={g} href={'#' + g} className="shrink-0 rounded-full px-2.5 py-1 bg-white/5 text-stone-300">{g} {cs.reduce((s, c) => s + c.qty, 0)}</a>)}
         </nav>}
       </header>
       <main className="max-w-5xl mx-auto px-3 pb-16">
-        {tab > 0 ? <Diff r={revisions[tab - 1]} onOpen={setOpen} /> : groups.map(([g, cs]) => (
+        {tab > 1 ? <Diff r={revisions[tab - 2]} onOpen={setOpen} /> : groups.map(([g, cs]) => (
           <section key={g} id={g} className="scroll-mt-36 pt-6">
             <h2 className="mb-3 text-sm uppercase tracking-widest text-amber-400/90">{g} <span className="text-stone-500">({cs.reduce((s, c) => s + c.qty, 0)})</span></h2>
             <div className={g === 'Commander' ? 'max-w-sm mx-auto' : 'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3'}>
