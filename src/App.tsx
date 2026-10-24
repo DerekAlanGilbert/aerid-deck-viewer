@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import deck from './deck.json'
 import revData from './revisions.data.json'
+import { ProposalView, proposal } from './Proposal'
 
 type Face = { normal: string; large: string; png?: string | null }
 type Card = { qty: number; name: string; commander: boolean; type_line: string; mana_cost: string; faces: Face[]; uri: string }
@@ -84,8 +85,10 @@ function Diff({ r, onOpen }: { r: Revision; onOpen: (c: Card) => void }) {
 
 export default function App() {
   const [open, setOpen] = useState<Card | null>(null)
-  const tabs = ['Current', 'Version 1', ...revisions.map(r => r.name)]
-  const [tab, setTab] = useState(0)
+  const tabs = ['Current', 'Version 1', ...revisions.map(r => r.name), proposal.name + ' (Proposed)']
+  const PROP = tabs.length - 1
+  const [tab, setTab] = useState(() => location.hash === '#artifact-maximalism' ? PROP : 0)
+  useEffect(() => { history.replaceState(null, '', tab === PROP ? '#artifact-maximalism' : location.pathname) }, [tab, PROP])
   const list = tab === 1 ? cards : current
   const groups = useMemo(() => {
     const m = new Map<string, Card[]>()
@@ -98,7 +101,7 @@ export default function App() {
       <header className="sticky top-0 z-40 bg-[#0b0b0f]/85 backdrop-blur border-b border-white/5">
         <div role="tablist" className="max-w-5xl mx-auto px-4 pt-3 flex gap-2 overflow-x-auto text-sm no-scrollbar">
           {tabs.map((t, i) => <button key={t} role="tab" aria-selected={tab === i} onClick={() => { setTab(i); scrollTo(0, 0) }}
-            className={'shrink-0 rounded-full px-3 py-1.5 transition ' + (tab === i ? 'bg-amber-500 text-black font-semibold' : 'bg-white/5 text-stone-300 hover:bg-white/10')}>{t}</button>)}
+            className={'shrink-0 rounded-full px-3 py-1.5 transition ' + (i === PROP && tab !== i ? 'border border-dashed border-amber-500/50 ' : '') + (tab === i ? 'bg-amber-500 text-black font-semibold' : 'bg-white/5 text-stone-300 hover:bg-white/10')}>{t}</button>)}
         </div>
         <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
           <div className="min-w-0">
@@ -112,7 +115,7 @@ export default function App() {
         </nav>}
       </header>
       <main className="max-w-5xl mx-auto px-3 pb-16">
-        {tab > 1 ? <Diff r={revisions[tab - 2]} onOpen={setOpen} /> : groups.map(([g, cs]) => (
+        {tab === PROP ? <ProposalView onOpen={c => setOpen(c)} /> : tab > 1 ? <Diff r={revisions[tab - 2]} onOpen={setOpen} /> : groups.map(([g, cs]) => (
           <section key={g} id={g} className="scroll-mt-36 pt-6">
             <h2 className="mb-3 text-sm uppercase tracking-widest text-amber-400/90">{g} <span className="text-stone-500">({cs.reduce((s, c) => s + c.qty, 0)})</span></h2>
             <div className={g === 'Commander' ? 'max-w-sm mx-auto' : 'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3'}>

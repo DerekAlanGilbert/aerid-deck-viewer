@@ -1,0 +1,19 @@
+{
+ "name": "Artifact Maximalism",
+ "status": "Proposed — not adopted",
+ "cost": "~$38.62–$46.11",
+ "stats": [["Creatures", "27", "30"], ["Artifacts", "25", "38"], ["Lands", "36", "35"], ["Avg MV", "3.34", "3.05"]],
+ "curve": {"labels": ["1","2","3","4","5","6","7+"], "before": [6,15,24,5,8,2,4], "after": [7,18,26,6,3,1,4]},
+ "phases": [
+  {"name": "Phase 1", "note": "Game Grid", "swaps": [
+   ["Mountain","Mind Stone"],["Greenhouse Propagator","Burnished Hart"],["Spider Manifestation","Palladium Myr"],["Magda, Brazen Outlaw","Steel Overseer"],
+   ["Undercover Skrull","Breya's Apprentice"],["Hot Dog Cart","Tough Cookie"],["Bitter Work","Foundry Inspector"],["Hellkite Tyrant","Myr Battlesphere"],
+   ["Goldlust Triad","Pyrewood Gearhulk"],["Loki's Scepter","Swiftfoot Boots"],["Ragged Short Spear","Soul-Guide Lantern"]]},
+  {"name": "Phase 2", "note": "TCGplayer · ~$15.46", "swaps": [
+   ["Konstrari Charm","Talisman of Impulse"],["Draconic Visitor","Ravenous Robots"],["Heroes for Hire","Academy Manufactor"],["Garruk's Uprising","Idol of Oblivion"],
+   ["Dependable Quinjet","Bonder's Ornament"],["Archive Arbiter","Solemn Simulacrum"]]},
+  {"name": "Phase 3", "note": "Star Trek · TRK releases Nov 13", "swaps": [
+   ["Wrecking Gecko",{"name":"Replicator","set":"TRK","cn":"267"}],["World War Hulk",{"name":"Starfleet Communicator","set":"TRC","cn":"121"}],
+   ["Blasphemous Act",{"name":"Quark, Humble Proprietor","set":"TRK","cn":"166"}]]}
+ ]
+}
