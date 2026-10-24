@@ -21,7 +21,7 @@
   [
    "Avg MV",
    "3.34",
-   "3.05"
+   "3.10"
   ]
  ],
  "curve": {
@@ -46,10 +46,10 @@
   "after": [
    7,
    18,
-   26,
+   25,
    6,
    3,
-   1,
+   2,
    4
   ]
  },
@@ -313,20 +313,20 @@
     {
      "out": {
       "qty": 1,
-      "name": "Hellkite Tyrant",
+      "name": "Wood Elves",
       "commander": false,
-      "type_line": "Creature \u2014 Dragon",
-      "mana_cost": "{4}{R}{R}",
+      "type_line": "Creature \u2014 Elf Scout",
+      "mana_cost": "{2}{G}",
       "faces": [
        {
-        "normal": "https://cards.scryfall.io/normal/front/2/0/2078d569-47c1-43c8-b34f-ef84951b7566.jpg?1783913171",
-        "large": "https://cards.scryfall.io/large/front/2/0/2078d569-47c1-43c8-b34f-ef84951b7566.jpg?1783913171",
-        "png": "https://cards.scryfall.io/png/front/2/0/2078d569-47c1-43c8-b34f-ef84951b7566.png?1783913171"
+        "normal": "https://cards.scryfall.io/normal/front/2/4/2476e42b-b209-4207-8ed9-cb668f89b218.jpg?1783902784",
+        "large": "https://cards.scryfall.io/large/front/2/4/2476e42b-b209-4207-8ed9-cb668f89b218.jpg?1783902784",
+        "png": "https://cards.scryfall.io/png/front/2/4/2476e42b-b209-4207-8ed9-cb668f89b218.png?1783902784"
        }
       ],
-      "uri": "https://scryfall.com/card/rvr/428/hellkite-tyrant?utm_source=api",
-      "set": "rvr",
-      "cn": "428"
+      "uri": "https://scryfall.com/card/hob/142/wood-elves?utm_source=api",
+      "set": "hob",
+      "cn": "142"
      },
      "in": {
       "qty": 1,
